@@ -7,7 +7,7 @@ Based on [100 Days of Code: The Complete Python Pro Bootcamp for 2023](https://w
 | Day   | Date        | ☑ |
 | ----- | ----------- | - |
 | 1     | 01 29 2023  | ☑ |
-| 2     | 01 30 2023  |   |
+| 2     | 01 30 2023  | ☑ |
 | 3     | 01 31 2023  |   |
 | 4     | 02 01 2023  |   |
 | 5     | 02 02 2023  |   |
