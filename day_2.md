@@ -1,4 +1,4 @@
-### Day 1 - 013023
+### Day 2 - 013023
 
 Data Types [Replit](https://replit.com/@sofiamejiamuro/day-2-start#main.py)
 
