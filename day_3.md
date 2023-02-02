@@ -162,3 +162,52 @@ if extra_cheese == "Y":
 
 print(f"Your final bill is: ${final_bill}")
 ```
+
+**LOGICAL OPERATORS**
+
+[tickets](https://replit.com/@sofiamejiamuro/day-3-end#main.py)
+
+[Love Calculator Challenge](https://app.codingrooms.com/w/cB8Va9z69My8)
+
+```py
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+t = name1.lower().count("t") + name2.lower().count("t")
+r = t + (name1.lower().count("r") + name2.lower().count("r"))
+u = r + (name1.lower().count("u") + name2.lower().count("u"))
+e = u +(name1.lower().count("e") + name2.lower().count("e"))
+
+l = name1.lower().count("l") + name2.lower().count("l")
+o = l + (name1.lower().count("o") + name2.lower().count("o"))
+v = o + (name1.lower().count("v") + name2.lower().count("v"))
+e_2 = v + (name1.lower().count("e") + name2.lower().count("e"))
+
+total_true = e
+total_love = e_2
+
+print(total_true)
+print(total_love)
+
+total = int(str(total_true) + str(total_love))
+#print(type(total))
+
+if total < 10 or total > 90:
+    print(f"Your score is {total}, you go together like coke and mentos.")
+elif total >= 40 and total <= 50:
+    print(f"Your score is {total}, you are alright together.")
+else:
+    print(f"Your score is {total}.")
+
+#Refactor
+# Concatenate the names from the beggining
+
+names = name1 + name2
+
+```
+
